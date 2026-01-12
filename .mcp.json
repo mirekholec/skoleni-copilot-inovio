@@ -1,0 +1,20 @@
+{
+	"servers": {
+		"CopilotSpaces": {
+			"url": "https://api.githubcopilot.com/mcp/x/copilot_spaces",
+			"requestInit": {
+				"headers": {
+					"Authorization": "Bearer YOUR_GITHUB_PAT_TOKEN"
+				}
+			},
+			"type": "http",
+			"version": "0.21.1"
+		},
+		"Playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			]
+		}
+	}
+}
